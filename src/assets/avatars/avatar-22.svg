@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+<defs>
+        <radialGradient id="bg22" cx="50%" cy="40%" r="50%">
+          <stop offset="0%" stop-color="#be185d" />
+          <stop offset="100%" stop-color="#500724" />
+        </radialGradient>
+      </defs>
+      <circle cx="50" cy="50" r="48" fill="url(#bg22)" stroke="#f472b6" stroke-width="2.5" />
+      <!-- Flowing Crimson Hair -->
+      <path d="M24 45 C20 68 28 85 34 90 L66 90 C72 85 80 68 76 45 Z" fill="#9d174d" />
+      <!-- Duelist Collar -->
+      <path d="M18 90 C25 76 36 72 50 72 C64 72 75 76 82 90 Z" fill="#500724" stroke="#f472b6" stroke-width="1.5" />
+      <!-- Face -->
+      <path d="M35 40 C35 30 42 26 50 26 C58 26 65 30 65 40 C65 52 58 60 50 60 C42 60 35 52 35 40 Z" fill="#fde68a" />
+      <!-- Rose-Gold Tiara -->
+      <polygon points="50,22 53,27 50,30 47,27" fill="#fb7185" stroke="#f43f5e" stroke-width="1" />
+      <!-- Sharp Rose Eyes -->
+      <circle cx="43" cy="42" r="2.5" fill="#be185d" />
+      <circle cx="57" cy="42" r="2.5" fill="#be185d" />
+</svg>

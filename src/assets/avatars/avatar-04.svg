@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+<defs>
+        <radialGradient id="bg4" cx="50%" cy="40%" r="50%">
+          <stop offset="0%" stop-color="#b45309" />
+          <stop offset="100%" stop-color="#451a03" />
+        </radialGradient>
+      </defs>
+      <circle cx="50" cy="50" r="48" fill="url(#bg4)" stroke="#f59e0b" stroke-width="2.5" />
+      <!-- Winged Crests behind head -->
+      <path d="M22 28 L34 36 L26 48 Z" fill="#fef08a" stroke="#ca8a04" stroke-width="1" />
+      <path d="M78 28 L66 36 L74 48 Z" fill="#fef08a" stroke="#ca8a04" stroke-width="1" />
+      <!-- Golden Armor Shoulders -->
+      <path d="M16 90 C24 74 36 70 50 70 C64 70 76 74 84 90 Z" fill="#d97706" stroke="#fde047" stroke-width="1.5" />
+      <!-- Braided Blonde Hair -->
+      <path d="M28 42 C28 26 38 20 50 20 C62 20 72 26 72 42 C72 65 64 80 60 88 L40 88 C36 80 28 65 28 42 Z" fill="#fde047" />
+      <!-- Face -->
+      <path d="M35 40 C35 30 42 26 50 26 C58 26 65 30 65 40 C65 52 58 60 50 60 C42 60 35 52 35 40 Z" fill="#fde68a" />
+      <!-- Golden Tiara -->
+      <path d="M34 34 L50 24 L66 34 L50 30 Z" fill="#f59e0b" stroke="#fde047" stroke-width="1" />
+      <polygon points="50,22 53,26 50,30 47,26" fill="#ef4444" />
+      <!-- Eyes -->
+      <circle cx="43" cy="43" r="2.5" fill="#0284c7" />
+      <circle cx="57" cy="43" r="2.5" fill="#0284c7" />
+      <path d="M46 54 Q50 56 54 54" stroke="#d97706" stroke-width="1.5" fill="none" stroke-linecap="round" />
+</svg>

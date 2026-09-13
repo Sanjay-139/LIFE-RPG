@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+<defs>
+        <radialGradient id="bg14" cx="50%" cy="40%" r="50%">
+          <stop offset="0%" stop-color="#a16207" />
+          <stop offset="100%" stop-color="#422006" />
+        </radialGradient>
+      </defs>
+      <circle cx="50" cy="50" r="48" fill="url(#bg14)" stroke="#facc15" stroke-width="2.5" />
+      <!-- Radiant Halo -->
+      <circle cx="50" cy="38" r="26" fill="none" stroke="#fef08a" stroke-width="1.5" stroke-dasharray="4 2" />
+      <!-- White & Gold Vestments -->
+      <path d="M16 90 C24 74 36 70 50 70 C64 70 76 74 84 90 Z" fill="#f8fafc" stroke="#eab308" stroke-width="1.5" />
+      <!-- Veil -->
+      <path d="M28 42 C28 24 38 18 50 18 C62 18 72 24 72 42 C72 65 64 78 60 84 L40 84 C36 78 28 65 28 42 Z" fill="#f1f5f9" />
+      <!-- Face -->
+      <path d="M35 40 C35 30 42 26 50 26 C58 26 65 30 65 40 C65 52 58 60 50 60 C42 60 35 52 35 40 Z" fill="#fde68a" />
+      <!-- Golden Diadem -->
+      <path d="M34 34 Q50 30 66 34" stroke="#ca8a04" stroke-width="2" fill="none" />
+      <polygon points="50,26 53,30 50,34 47,30" fill="#facc15" />
+      <!-- Serene Blue Eyes -->
+      <circle cx="43" cy="42" r="2" fill="#0284c7" />
+      <circle cx="57" cy="42" r="2" fill="#0284c7" />
+</svg>

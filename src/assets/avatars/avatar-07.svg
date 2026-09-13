@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+<defs>
+        <radialGradient id="bg7" cx="50%" cy="40%" r="50%">
+          <stop offset="0%" stop-color="#312e81" />
+          <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+      </defs>
+      <circle cx="50" cy="50" r="48" fill="url(#bg7)" stroke="#60a5fa" stroke-width="2.5" />
+      <!-- Spiky Lightning Hair -->
+      <path d="M24 38 L32 20 L40 28 L50 12 L60 28 L68 20 L76 38 Z" fill="#93c5fd" stroke="#60a5fa" stroke-width="1" />
+      <!-- Armor / Storm mantle -->
+      <path d="M16 90 C24 74 36 70 50 70 C64 70 76 74 84 90 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+      <!-- Face -->
+      <path d="M34 42 C34 30 42 26 50 26 C58 26 66 30 66 42 C66 56 58 64 50 64 C42 64 34 56 34 42 Z" fill="#e2e8f0" />
+      <!-- Electrified Eyes -->
+      <circle cx="43" cy="43" r="3" fill="#60a5fa" filter="drop-shadow(0 0 2px #93c5fd)" />
+      <circle cx="57" cy="43" r="3" fill="#60a5fa" filter="drop-shadow(0 0 2px #93c5fd)" />
+      <!-- Lightning bolt scar/sigil -->
+      <path d="M49 50 L47 54 L52 54 L50 59" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" fill="none" />
+</svg>

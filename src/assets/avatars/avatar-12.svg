@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+<defs>
+        <radialGradient id="bg12" cx="50%" cy="40%" r="50%">
+          <stop offset="0%" stop-color="#0369a1" />
+          <stop offset="100%" stop-color="#021e30" />
+        </radialGradient>
+      </defs>
+      <circle cx="50" cy="50" r="48" fill="url(#bg12)" stroke="#38bdf8" stroke-width="2.5" />
+      <!-- Flowing Cyan Locks -->
+      <path d="M24 45 C20 68 28 85 34 90 L66 90 C72 85 80 68 76 45 Z" fill="#38bdf8" opacity="0.8" />
+      <!-- Scout Collar -->
+      <path d="M18 90 C25 76 36 72 50 72 C64 72 75 76 82 90 Z" fill="#0c4a6e" stroke="#0ea5e9" stroke-width="1.5" />
+      <!-- Face -->
+      <path d="M34 42 C34 30 42 26 50 26 C58 26 66 30 66 42 C66 54 58 62 50 62 C42 62 34 54 34 42 Z" fill="#fed7aa" />
+      <!-- Feather Clasp -->
+      <polygon points="50,22 53,28 50,34 47,28" fill="#bae6fd" stroke="#0284c7" stroke-width="0.8" />
+      <!-- Sharp Eyes -->
+      <circle cx="43" cy="43" r="2.5" fill="#0284c7" />
+      <circle cx="57" cy="43" r="2.5" fill="#0284c7" />
+</svg>

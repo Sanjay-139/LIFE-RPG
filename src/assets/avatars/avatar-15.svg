@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+<defs>
+        <radialGradient id="bg15" cx="50%" cy="40%" r="50%">
+          <stop offset="0%" stop-color="#b91c1c" />
+          <stop offset="100%" stop-color="#450a0a" />
+        </radialGradient>
+      </defs>
+      <circle cx="50" cy="50" r="48" fill="url(#bg15)" stroke="#f97316" stroke-width="2.5" />
+      <!-- Heavy Dragonscale Shoulders -->
+      <path d="M14 90 C22 72 34 66 50 66 C66 66 78 72 86 90 Z" fill="#1c1917" stroke="#dc2626" stroke-width="1.5" />
+      <!-- Horned Dragonplate Helm -->
+      <path d="M30 40 C30 24 40 16 50 16 C60 16 70 24 70 40 C70 56 60 64 50 64 C40 64 30 56 30 40 Z" fill="#292524" stroke="#7f1d1d" stroke-width="1.5" />
+      <!-- Curved Dragon Horns -->
+      <path d="M26 36 C20 20 18 10 24 6 C28 14 30 24 32 30 Z" fill="#dc2626" />
+      <path d="M74 36 C80 20 82 10 76 6 C72 14 70 24 68 30 Z" fill="#dc2626" />
+      <!-- Slit Visor Glowing Amber -->
+      <polygon points="36,40 48,43 46,47 38,45" fill="#f97316" filter="drop-shadow(0 0 2px #fbbf24)" />
+      <polygon points="64,40 52,43 54,47 62,45" fill="#f97316" filter="drop-shadow(0 0 2px #fbbf24)" />
+</svg>

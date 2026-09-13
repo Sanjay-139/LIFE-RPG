@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+<defs>
+        <radialGradient id="bg18" cx="50%" cy="40%" r="50%">
+          <stop offset="0%" stop-color="#c2410c" />
+          <stop offset="100%" stop-color="#431407" />
+        </radialGradient>
+      </defs>
+      <circle cx="50" cy="50" r="48" fill="url(#bg18)" stroke="#ea580c" stroke-width="2.5" />
+      <!-- Blazing Red/Orange Hair -->
+      <path d="M22 46 C20 20 36 12 50 12 C64 12 80 20 78 46 C78 72 70 85 64 90 L36 90 C30 85 22 72 22 46 Z" fill="#ea580c" />
+      <path d="M28 38 C32 18 42 16 50 16 C58 16 68 18 72 38 Z" fill="#f97316" />
+      <!-- Robe Shoulders -->
+      <path d="M16 90 C24 76 36 72 50 72 C64 72 76 76 84 90 Z" fill="#431407" stroke="#f97316" stroke-width="1.5" />
+      <!-- Face -->
+      <path d="M35 42 C35 30 42 26 50 26 C58 26 65 30 65 42 C65 54 58 62 50 62 C42 62 35 54 35 42 Z" fill="#fde68a" />
+      <!-- Golden Circlet -->
+      <path d="M34 32 Q50 28 66 32" stroke="#facc15" stroke-width="2" fill="none" />
+      <!-- Amber Eyes -->
+      <circle cx="43" cy="42" r="2.5" fill="#c2410c" />
+      <circle cx="57" cy="42" r="2.5" fill="#c2410c" />
+</svg>

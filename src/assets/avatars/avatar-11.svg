@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+<defs>
+        <radialGradient id="bg11" cx="50%" cy="40%" r="50%">
+          <stop offset="0%" stop-color="#44403c" />
+          <stop offset="100%" stop-color="#0c0a09" />
+        </radialGradient>
+      </defs>
+      <circle cx="50" cy="50" r="48" fill="url(#bg11)" stroke="#f97316" stroke-width="2.5" />
+      <!-- Massive Plated Shoulders -->
+      <path d="M12 90 C20 70 34 65 50 65 C66 65 80 70 88 90 Z" fill="#292524" stroke="#ea580c" stroke-width="2" />
+      <!-- Full Heavy Iron Helm -->
+      <path d="M28 42 C28 24 38 18 50 18 C62 18 72 24 72 42 C72 58 62 66 50 66 C38 66 28 58 28 42 Z" fill="#1c1917" stroke="#78716c" stroke-width="1.5" />
+      <!-- Golden Cross Visor -->
+      <path d="M48 24 L52 24 L52 60 L48 60 Z" fill="#fb923c" />
+      <path d="M34 40 L66 40 L66 44 L34 44 Z" fill="#fb923c" />
+      <circle cx="50" cy="42" r="3" fill="#fff7ed" />
+</svg>

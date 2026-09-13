@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+<defs>
+        <radialGradient id="bg23" cx="50%" cy="40%" r="50%">
+          <stop offset="0%" stop-color="#0d9488" />
+          <stop offset="100%" stop-color="#021815" />
+        </radialGradient>
+      </defs>
+      <circle cx="50" cy="50" r="48" fill="url(#bg23)" stroke="#14b8a6" stroke-width="2.5" />
+      <!-- Spectral Flames behind -->
+      <path d="M30 20 Q35 8 42 16 Q50 4 58 16 Q65 8 70 20 Z" fill="#2dd4bf" opacity="0.6" filter="drop-shadow(0 0 4px #14b8a6)" />
+      <!-- Deathplate Shoulders -->
+      <path d="M16 90 C24 74 36 68 50 68 C64 68 76 74 84 90 Z" fill="#0f172a" stroke="#0d9488" stroke-width="1.5" />
+      <!-- Helm Skullplate -->
+      <path d="M32 42 C32 26 40 18 50 18 C60 18 68 26 68 42 C68 56 60 64 50 64 C40 64 32 56 32 42 Z" fill="#134e4a" stroke="#2dd4bf" stroke-width="1.5" />
+      <!-- Teal Spirit Eyes -->
+      <circle cx="42" cy="42" r="3.5" fill="#2dd4bf" filter="drop-shadow(0 0 3px #5eead4)" />
+      <circle cx="58" cy="42" r="3.5" fill="#2dd4bf" filter="drop-shadow(0 0 3px #5eead4)" />
+</svg>

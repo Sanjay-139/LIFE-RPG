@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+<defs>
+        <radialGradient id="bg10" cx="50%" cy="40%" r="50%">
+          <stop offset="0%" stop-color="#6b21a8" />
+          <stop offset="100%" stop-color="#090514" />
+        </radialGradient>
+      </defs>
+      <circle cx="50" cy="50" r="48" fill="url(#bg10)" stroke="#a855f7" stroke-width="2.5" />
+      <!-- Deep Purple Mantle -->
+      <path d="M16 90 C24 74 36 70 50 70 C64 70 76 74 84 90 Z" fill="#1e1b4b" stroke="#7e22ce" stroke-width="1.5" />
+      <!-- Amethyst Cowl -->
+      <path d="M28 46 C26 24 38 16 50 16 C62 16 74 24 72 46 C72 64 64 68 50 68 C36 68 28 64 28 46 Z" fill="#3b0764" stroke="#c084fc" stroke-width="1" />
+      <!-- Face -->
+      <path d="M36 42 C36 32 42 28 50 28 C58 28 64 32 64 42 C64 54 58 60 50 60 C42 60 36 54 36 42 Z" fill="#fed7aa" />
+      <!-- Astral Mask / Lower veil -->
+      <path d="M36 48 C42 46 58 46 64 48 L60 62 C54 64 46 64 40 62 Z" fill="#1e1b4b" stroke="#a855f7" stroke-width="1" />
+      <!-- Glowing Violet Eyes -->
+      <ellipse cx="43" cy="42" rx="2.5" ry="1.5" fill="#e9d5ff" filter="drop-shadow(0 0 2px #c084fc)" />
+      <ellipse cx="57" cy="42" rx="2.5" ry="1.5" fill="#e9d5ff" filter="drop-shadow(0 0 2px #c084fc)" />
+</svg>

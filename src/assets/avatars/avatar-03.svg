@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+<defs>
+        <radialGradient id="bg3" cx="50%" cy="40%" r="50%">
+          <stop offset="0%" stop-color="#1e293b" />
+          <stop offset="100%" stop-color="#020617" />
+        </radialGradient>
+      </defs>
+      <circle cx="50" cy="50" r="48" fill="url(#bg3)" stroke="#2dd4bf" stroke-width="2.5" />
+      <!-- Dark Mantle -->
+      <path d="M16 90 C22 75 35 70 50 70 C65 70 78 75 84 90 Z" fill="#090d16" stroke="#1e293b" stroke-width="1.5" />
+      <!-- Hood -->
+      <path d="M26 48 C24 24 38 15 50 15 C62 15 76 24 74 48 C74 65 65 70 50 70 C35 70 26 65 26 48 Z" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+      <!-- Shadow face -->
+      <path d="M34 40 C34 32 41 28 50 28 C59 28 66 32 66 40 C66 52 58 60 50 60 C42 60 34 52 34 40 Z" fill="#090d16" />
+      <!-- Rogue Face Mask -->
+      <path d="M35 48 C42 46 58 46 65 48 L61 62 C55 64 45 64 39 62 Z" fill="#0f172a" stroke="#2dd4bf" stroke-width="1" />
+      <!-- Cyan Cyber Goggles / Eyes -->
+      <path d="M38 42 L46 42 L45 46 L39 46 Z" fill="#2dd4bf" filter="drop-shadow(0 0 2px #2dd4bf)" />
+      <path d="M54 42 L62 42 L61 46 L55 46 Z" fill="#2dd4bf" filter="drop-shadow(0 0 2px #2dd4bf)" />
+</svg>
