@@ -27,10 +27,12 @@ async function startServer() {
     process.exit(1);
   }
 
-  const server = app.listen(env.PORT, () => {
-    console.log(`\n🚀 LIFE RPG Server listening: http://localhost:${env.PORT}`);
-    console.log(`📡 API Base Path:             http://localhost:${env.PORT}/api`);
-    console.log(`🩺 Health Check:              http://localhost:${env.PORT}/api/health`);
+  const port = Number(process.env.PORT) || 5000;
+
+  const server = app.listen(port, "0.0.0.0", () => {
+    console.log(`LIFE RPG Server listening on port ${port}`);
+    console.log(`📡 API Base Path:             http://0.0.0.0:${port}/api`);
+    console.log(`🩺 Health Check:              http://0.0.0.0:${port}/api/health`);
     console.log(`🌐 Frontend Allowed:          ${env.FRONTEND_URL}`);
     console.log(`🎮 Progression Engine:        Active (Authoritative XP, Gold, Streaks)`);
     console.log(`💾 Persistence Status:        ${isPostgresConnected ? 'Supabase/PostgreSQL Connected' : 'Persistent Local Storage File (rpg_store.json)'}`);

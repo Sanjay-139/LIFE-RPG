@@ -8,10 +8,14 @@ const DEFAULT_SUPABASE_ANON_KEY =
 const envUrl = import.meta.env.VITE_SUPABASE_URL;
 const envKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
-const supabaseUrl =
-  envUrl && !envUrl.includes('placeholder') && !envUrl.includes('your-supabase-project')
-    ? envUrl
-    : DEFAULT_SUPABASE_URL;
+// Ensure supabaseUrl is a valid HTTP/HTTPS URL (protect against accidentally pasting postgresql:// connection strings)
+const isValidHttpUrl =
+  envUrl &&
+  (envUrl.startsWith('https://') || envUrl.startsWith('http://')) &&
+  !envUrl.includes('placeholder') &&
+  !envUrl.includes('your-supabase-project');
+
+const supabaseUrl = isValidHttpUrl ? envUrl : DEFAULT_SUPABASE_URL;
 
 const supabaseAnonKey =
   envKey && !envKey.includes('placeholder') && !envKey.includes('your-anon-key')

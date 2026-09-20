@@ -6,7 +6,7 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
+    "build": "tsc && node scripts/copy-migrations.js",
     "start": "node dist/server.js",
     "test": "tsx tests/rpg.test.ts",
     "db:migrate": "tsx src/database/migrate.ts",

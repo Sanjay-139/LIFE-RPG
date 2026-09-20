@@ -15,7 +15,25 @@ export async function runMigrations() {
     return;
   }
 
-  const migrationsDir = path.join(__dirname, 'migrations');
+  // 1. Primary: __dirname/migrations (e.g. dist/database/migrations or src/database/migrations)
+  let migrationsDir = path.join(__dirname, 'migrations');
+
+  // 2. Fallback: if running from dist, check relative source location (../../src/database/migrations)
+  if (!fs.existsSync(migrationsDir)) {
+    const srcFallback = path.resolve(__dirname, '../../src/database/migrations');
+    if (fs.existsSync(srcFallback)) {
+      migrationsDir = srcFallback;
+    }
+  }
+
+  // 3. Fallback: check working directory relative path
+  if (!fs.existsSync(migrationsDir)) {
+    const cwdFallback = path.resolve(process.cwd(), 'src/database/migrations');
+    if (fs.existsSync(cwdFallback)) {
+      migrationsDir = cwdFallback;
+    }
+  }
+
   if (!fs.existsSync(migrationsDir)) {
     console.warn('⚠️ Migrations directory not found at', migrationsDir);
     return;
